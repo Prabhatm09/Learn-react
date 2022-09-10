@@ -1,0 +1,327 @@
+[
+{
+"id":"1",
+    "name":"slider-1",
+    "url":"![800x600](https://user-images.githubusercontent.com/105411899/189496829-4f357eb3-e09f-48fb-9479-02bd32558ee1.jpg)"
+},
+{
+    "id":"2",
+    "name":"slider-2",
+    "url":"![800x600 (1)](https://user-images.githubusercontent.com/105411899/189496830-3076e7fd-bd8e-48c2-8587-704609891ed2.jpg)"
+},
+{
+    "id":"3",
+    "name":"slider-3",
+    "url":"![800X600 (2)](https://user-images.githubusercontent.com/105411899/189496831-1df976eb-38e1-4462-99ee-e01801a241fd.jpg)"
+},
+{
+    "id":"4",
+    "name":"slider-4",
+    "url":"![allef-vinicius-oZrWVZEbv1I-unsplash](https://user-images.githubusercontent.com/105411899/189496994-60f96889-13fd-446f-9111-55c5f6c05402.jpg)"
+},
+{
+    "id":"5",
+    "name":"fastrack Reflex Vox",
+    "url":"![1X1](https://user-images.githubusercontent.com/105411899/189497039-32888835-01f9-4e40-8f1e-45cd2cf1f417.jpg)"
+},
+{
+    "id":"6",
+    "name":"fastrack Reflex tunes",
+    "url":"![1080x1080_tunes](https://user-images.githubusercontent.com/105411899/189497037-ddb8b27b-eaf4-4e1c-a527-d402baeb2c14.jpg)"
+},
+{
+    "id":"7",
+    "name":"fastrack bags",
+    "url":"![720x720_ftbags](https://user-images.githubusercontent.com/105411899/189497041-87d4eeb9-68a5-4d64-989e-444ea465d2cc.jpg)"
+},
+{
+    "id":"8",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH BLACK STRAP AND BLUETOOTH CALLING",
+     "price":"6 995.00",
+    "url":"![bs3](https://user-images.githubusercontent.com/105411899/189497286-427d54c6-ee11-4de5-90cb-341fa8c321e5.jpg)ok"
+},
+{
+    "id":"9",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH BLACK STRAP AND BLUETOOTH CALLING",
+     "price":"6 995.00",
+    "url":"![black st2](https://user-images.githubusercontent.com/105411899/189497292-2d9c3860-492e-4ec3-b019-8eef4cb8f022.jpg)"
+},
+{
+    "id":"10",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH BLACK STRAP AND BLUETOOTH CALLING",
+     "price":"6 995.00",
+    "url":"![black strappp](https://user-images.githubusercontent.com/105411899/189497293-c2525863-13d0-4c8c-b640-7038a7a3f4cc.jpg)"
+},
+{
+    "id":"11",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH BLACK STRAP AND BLUETOOTH CALLING",
+     "price":"6 995.00",
+    "url":"![black strapp](https://user-images.githubusercontent.com/105411899/189497294-516b31ac-3a28-431d-bf15-d09ef1374a87.jpg)"
+},
+{
+    "id":"12",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH BLACK STRAP AND BLUETOOTH CALLING",
+     "price":"6 995.00",
+    "url":"![black](https://user-images.githubusercontent.com/105411899/189497382-795e5047-9320-4c7a-9c20-8ccdb2459937.jpg)"
+},
+{
+    "id":"13",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH BLUE STRAP AND BLUETOOTH CALLING",
+    "price":"6 995.00",
+    "url":"![blue1](https://user-images.githubusercontent.com/105411899/189497440-279f4e69-b8c0-4450-9e41-da19cd582bf0.jpg)"
+},
+{
+    "id":"14",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH BLUE STRAP AND BLUETOOTH CALLING",
+     "price":"6 995.00",
+    "url":"![blue4](https://user-images.githubusercontent.com/105411899/189497441-df1601ec-fbc5-455f-87f2-34e77706e5a2.jpg)"
+},
+{
+    "id":"15",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH BLUE STRAP AND BLUETOOTH CALLING",
+     "price":"6 995.00",
+    "url":"![blue3](https://user-images.githubusercontent.com/105411899/189497442-6f68fd11-bd61-4689-8b77-79694cadddd1.jpg"
+},
+{
+    "id":"16",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH PINK STRAP AND BLUETOOTH CALLING",
+    "price":"6 995.00",
+    "url":"![pink2](https://user-images.githubusercontent.com/105411899/189497676-ad7ea0b8-80a9-4ddd-a64e-e893e029d7c1.jpg)"
+},
+{
+    "id":"17",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH PINK STRAP AND BLUETOOTH CALLING",
+    "price":"6 995.00",
+    "url":"![pink1](https://user-images.githubusercontent.com/105411899/189497677-fa50679d-e877-480c-a7eb-879d8ea67628.jpg)"
+},
+{
+    "id":"18",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH PINK STRAP AND BLUETOOTH CALLING",
+    "price":"6 995.00",
+    "url":"![pink3](https://user-images.githubusercontent.com/105411899/189497680-f4b3fee0-4710-4709-9936-a007616e3604.jpg)"
+}
+,
+{
+    "id":"19",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH PINK STRAP AND BLUETOOTH CALLING",
+    "price":"6 995.00",
+    "url":"![pink](https://user-images.githubusercontent.com/105411899/189497681-652e5a49-df42-4f8f-a578-e355160a56e4.jpg)"
+}
+,
+{
+    "id":"20",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH AQUA BLUE STRAP AND BLUETOOTH CALLING",
+    "price":"6 995.00",
+    "url":"![aq2](https://user-images.githubusercontent.com/105411899/189497831-af4b4b80-96ac-432f-83f8-587542e4d0d4.jpg)"
+}
+,
+{
+    "id":"21",
+    "name":"REFLEX PLAY PLUS SMART WATCH WITH AQUA BLUE STRAP AND BLUETOOTH CALLING",
+    "price":"6 995.00",
+    "url":"![aq](https://user-images.githubusercontent.com/105411899/189497833-f4b1b032-f7db-4f91-bbcc-0a260c989533.jpg)"
+}
+,
+{
+    "id":"22",
+    "name":"REFLEX 3.0 DUAL TONED SMART BAND IN MIDNIGHT BLACK & GREY ACCENT",
+    "price":"1 795.00",
+    "url":"![dual2](https://user-images.githubusercontent.com/105411899/189497992-2ca9d7ad-4cc6-473b-afb7-f5cc5723eaad.jpg)"
+}
+,
+{
+    "id":"23",
+    "name":"REFLEX 3.0 DUAL TONED SMART BAND IN MIDNIGHT BLACK & GREY ACCENT",
+    "price":"1 795.00",
+    "url":"![dual4](https://user-images.githubusercontent.com/105411899/189497993-fb3e8832-07b1-48a2-a631-1e9924add5e6.jpg)"
+}
+,
+{
+    "id":"24",
+    "name":"REFLEX 3.0 DUAL TONED SMART BAND IN MIDNIGHT BLACK & GREY ACCENT",
+    "price":"1 795.00",
+    "url":"![dual1](https://user-images.githubusercontent.com/105411899/189497995-8a271539-b770-4ffb-a3cb-9edb624bc93c.jpg)"
+}
+,
+{
+    "id":"25",
+    "name":"REFLEX 3.0 DUAL TONED SMART BAND IN MIDNIGHT BLACK & GREY ACCENT",
+    "price":"1 795.00",
+    "url":"![dual3](https://user-images.githubusercontent.com/105411899/189497994-247f9216-3efe-449d-a69d-388ec9bfbd45.jpg)"
+}
+,
+{
+    "id":"26",
+    "name":"All nighters dark grey dail leather strap watch",
+    "price":"6095",
+    "url":"![leather2](https://user-images.githubusercontent.com/105411899/189498345-14f52635-5ac7-4465-995d-74c3f2b5949e.jpg)"
+}
+,
+{
+    "id":"27",
+    "name":"All nighters dark grey dail leather strap watch",
+    "price":"7595",
+    "url":"![leather3](https://user-images.githubusercontent.com/105411899/189498346-32a3f18a-141d-4752-90ee-068b6ae5d583.jpg)"
+}
+,
+{
+    "id":"28",
+    "name":"All nighters dark grey dail leather strap watch",
+    "price":"1695",
+    "url":"![leather5](https://user-images.githubusercontent.com/105411899/189498349-7f082850-ca27-4c57-a766-8f7a632da596.jpg)"
+}
+,
+{
+    "id":"29",
+    "name":"All nighters dark grey dail leather strap watch",
+    "price":"7795",
+    "url":""
+}
+,
+{
+    "id":"30",
+    "name":"All nighters dark grey dail leather strap watch",
+    "price":"6 995.00",
+    "url":"![leather1](https://user-images.githubusercontent.com/105411899/189498358-e1fe0598-4b01-4140-a421-f27ada7cdd60.jpg)"
+}
+,
+{
+    "id":"31",
+    "name":"All nighters dark grey dail leather strap watch",
+    "price":"9995.00",
+    "url":"![leather4](https://user-images.githubusercontent.com/105411899/189498347-2ad7b866-f91a-480d-b3fb-77142dd40ca8.jpg)9d-388ec9bfbd45.jpg)"
+}
+,
+{
+    "id":"32",
+    "name":"All nighters dark grey dail silicon strap watch",
+    "price":"5795",
+    "url":"![silicon2](https://user-images.githubusercontent.com/105411899/189498353-dfbda62f-393c-4b00-ab24-24d9cb872476.jpg)"
+}
+,
+{
+    "id":"33",
+    "name":"All nighters dark grey dail silicon strap watch",
+    "price":"5795",
+    "url":"![silicon](https://user-images.githubusercontent.com/105411899/189498352-11e78a98-3efc-4610-b46a-9173097eaa5d.jpg)"
+}
+,
+{
+    "id":"34",
+    "name":"All nighters dark grey dail stailness steel strap watch",
+    "price":"7095",
+    "url":"![stailness2](https://user-images.githubusercontent.com/105411899/189498356-551655e4-448a-49fe-a9d6-c0ad5be1dd4c.jpg)"
+}
+,
+{
+    "id":"35",
+    "name":"All nighters dark grey dail stailness steel strap watch",
+    "price":"7095",
+    "url":"![tainless](https://user-images.githubusercontent.com/105411899/189498357-83060fb5-ea02-450c-8742-70e3a3b511b7.jpg)"
+}
+,
+{
+    "id":"36",
+    "name":"All nighters dark grey dail stailness steel strap watch",
+    "price":"7095",
+    "url":"![stailness1](https://user-images.githubusercontent.com/105411899/189498355-95988bb6-3332-47b3-bdf3-168a1f37954b.jpg)"
+}
+,
+{
+    "id":"37",
+    "name":"COCA-COLA EDITION BY FASTRACK STRAP WATCH",
+    "price":"2795",
+    "url":"![coca1](https://user-images.githubusercontent.com/105411899/189498699-181a1f0d-7901-40d2-a193-6709f5dd47ec.jpg)"
+}
+,
+{
+    "id":"38",
+    "name":"COCA-COLA EDITION BY FASTRACK STRAP WATCH",
+    "price":"1795",
+    "url":"![coca2](https://user-images.githubusercontent.com/105411899/189498702-0f5c8b07-ac41-43f3-9d74-ffb602460e9a.jpg)"
+}
+,
+{
+    "id":"39",
+    "name":"COCA-COLA EDITION BY FASTRACK STRAP WATCH",
+    "price":"1295",
+    "url":"![coca3](https://user-images.githubusercontent.com/105411899/189498703-563d7328-6734-412d-a8a6-56b1a30b3d7b.jpg)"
+}
+,
+{
+    "id":"40",
+    "name":"COCA-COLA EDITION BY FASTRACK STRAP WATCH",
+    "price":"1905",
+    "url":"![coca3](https://user-images.githubusercontent.com/105411899/189498703-563d7328-6734-412d-a8a6-56b1a30b3d7b.jpg)"
+}
+,
+{
+    "id":"41",
+    "name":"COCA-COLA EDITION BY FASTRACK STRAP WATCH",
+    "price":"2395",
+    "url":"![coca4](https://user-images.githubusercontent.com/105411899/189498704-1bbdce20-d99a-4ead-a211-de94cb4f532f.jpg)"
+}
+,
+{
+    "id":"42",
+    "name":"COCA-COLA EDITION BY FASTRACK STRAP WATCH",
+    "price":"1095",
+    "url":"![coca4](https://user-images.githubusercontent.com/105411899/189498704-1bbdce20-d99a-4ead-a211-de94cb4f532f.jpg)"
+},
+{
+    "id":"43",
+    "name":"ARCADE",
+    "price":"950",
+    "url":"![t2](https://user-images.githubusercontent.com/105411899/189498929-b6df0703-cb95-4e57-817e-ea4ab1691d13.jpg)"
+}
+,
+{
+    "id":"44",
+    "name":"ARCADE",
+    "price":"950",
+    "url":""
+}
+,
+{
+    "id":"45",
+    "name":"ARCADE",
+    "price":"950",
+    "url":"![t3](https://user-images.githubusercontent.com/105411899/189498930-6b1b90d2-e981-4ca6-968a-90f15598302d.jpg)"
+},
+{
+    "id":"46",
+    "name":"ARCADE",
+    "price":"950",
+    "url":"![t5](https://user-images.githubusercontent.com/105411899/189498932-68c06f50-503c-49ed-935a-1c37ef89802d.jpg)"
+},
+{
+    "id":"47",
+    "name":"ARCADE",
+    "price":"950",
+    "url":"![t7](https://user-images.githubusercontent.com/105411899/189498933-6d11b99c-1ca8-493f-8bb4-1c9571765c8f.jpg)"
+},
+{
+    "id":"48",
+    "name":"ARCADE",
+    "price":"950",
+    "url":"![t8](https://user-images.githubusercontent.com/105411899/189498934-0c4b69a2-58f1-4cf4-9604-a385dd611e2d.jpg)"
+},
+{
+    "id":"49",
+    "name":"ARCADE",
+    "price":"950",
+    "url":"![tees1](https://user-images.githubusercontent.com/105411899/189498935-aaa92ccf-ff06-4775-8ba0-880a5ccc72ac.jpg)"
+},
+{
+    "id":"50",
+    "name":"ARCADE",
+    "price":"950",
+    "url":"![tess2](https://user-images.githubusercontent.com/105411899/189498936-73a6d96f-68ce-4c0d-8bbf-a5fc205151ca.jpg)"
+}
+
+
+
+
+
+
+]
