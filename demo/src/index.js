@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { App  } from './App';
-import { WelcomeFn } from './components/WelcomeFn';
+// import { App  } from './App';
+import {Count} from "./components/Count"
+// import { WelcomeFn } from './components/WelcomeFn';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App /> 
-    <WelcomeFn />
+    <Count /> 
+    {/* <WelcomeFn /> */}
   </React.StrictMode>
 );
 
