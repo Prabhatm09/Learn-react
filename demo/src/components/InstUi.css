@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 350px;
+    margin-left: 220px;
+    /* border: 2px solid black; */
+    /* display: flex; */
+}
+.Username{
+    font-size: 50px;
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    left: 80px;
+    top:-60px;
+
+}
+.Dp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+
+}
+img{
+    width: 250px;
+    height: 150px;
+}
+.para{
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+.post{
+    /* margin-top: 12px; */
+    /* margin-bottom: 30px; */
+}

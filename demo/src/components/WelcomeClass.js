@@ -1,12 +1,13 @@
-import React , { Component} from "react";
-import "./Class.css"
+import React  , {Component} from "react";
 
- export class WelcomeClass  extends Component {
-     
+export  class Welcomeclass extends Component {
     render(){
-        const { name ,  age , place , district } = this.props // destructing data
-        //    return  <h1>Welcome . to aircampus {this.props.name} , my age is {this.props.age} - Class Component</h1>
-           return  <h1 className="header">Welcome . to aircampus {name} , my age  is {age} {place} {district} - Class Component</h1>
+        const { name , age , city , adress} = this.props  // writing again and again this.props use destrcutre method
+        // this.props.name = "raju"; // props read only data cant change value
         
+        return (
+        //    <h1>welcome {this.props.name}</h1> 
+        <h1>Welcome to class based  { name}  {age} {city} {adress} components</h1>
+        )
     }
 }

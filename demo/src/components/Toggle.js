@@ -1,29 +1,33 @@
-import React , { Component} from "react";
+import React, { Component } from "react";
 
- export class Toggle extends Component {
-    //state - store some data inside a variable
-    constructor (props){
+export class Toggle extends Component{
+    constructor(props){
         super(props);
-        //state value are changable
-        this.state ={
-           isToggleOn : true,
-        }; 
-        // this.handleClick = this.handleClick.bind(this)
+        this.state = {
+            isToggleOn : false,
+        };
+        // this.handleclick = this.handleclick.bind(this)//use to bind the handle funct with clss
+    
     }
-
-handleClick = (click) => {
-    // console.log(this);
-    // console.log('clicking');
-    this.setState({
-        isToggleOn : !this.state.isToggleOn,
-    });
-};
-
+//to refer parent fucntion use arrow function
+    handleclick = (click) => {
+this.setState({
+    isToggleOn : !this.state.isToggleOn
+}) 
+    }
     render(){
-        // return <button onClick={()=>
-        // this.handleClick({
-        //     name : "prabhat"
-        // })}>
-        return <button onClick={() => this.handleClick("clicking")}>{this.state.isToggleOn ? "ON" : "OFF"}</button>;
+ //state -> store  some data inside a variable , state value are changeable
+         return (
+        //  <button onClick={this.handleclick}--> without parameter
+
+
+        // <button onClick={()=>this.handleclick({
+        //     name:"prabhat"
+        // })}-->pass as object also
+
+
+         <button onClick={()=>this.handleclick("clicking")} >{this.state.isToggleOn ? "ON"  : "OFF"}</button>
+
+         )
     }
 }

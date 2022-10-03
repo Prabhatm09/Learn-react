@@ -1,16 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import { App  } from './App';
-import {Count} from "./components/Count"
-// import { WelcomeFn } from './components/WelcomeFn';
+import { InstUI } from './components/InstUI';
+// import { Aapp } from './Aapp';
+// import { Parent } from './Parent';
+// import { IncDes } from './components/IncDes';
+// import { Greeting } from './components/Greeting';
+// import { Names } from './components/Names';
 import reportWebVitals from './reportWebVitals';
+// import { InstUI } from './components/InstUI';
+// import { App } from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Count /> 
-    {/* <WelcomeFn /> */}
+    {/* <App />
+    <Aapp  name="Harry potter - self closed tag" />
+    <Aapp name="Harry potter - normal tag">
+      <h2>head inside tag app</h2>
+    </Aapp> */}
+    {/* <Parent /> */}
+    {/* < IncDes /> */}
+    {/* <Greeting /> */}
+    {/* <Names /> */}
+    <InstUI />
   </React.StrictMode>
 );
 
