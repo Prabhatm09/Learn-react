@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { InstUI } from './components/InstUI';
+// import { InstUI } from './components/InstUI';
 // import { Aapp } from './Aapp';
 // import { Parent } from './Parent';
 // import { IncDes } from './components/IncDes';
 // import { Greeting } from './components/Greeting';
 // import { Names } from './components/Names';
 import reportWebVitals from './reportWebVitals';
+import { Lifecycle } from './components/Lifecycle';
 // import { InstUI } from './components/InstUI';
 // import { App } from './App';
 
@@ -23,7 +24,9 @@ root.render(
     {/* < IncDes /> */}
     {/* <Greeting /> */}
     {/* <Names /> */}
-    <InstUI />
+    {/* <InstUI /> */}
+    <Lifecycle />
+
   </React.StrictMode>
 );
 

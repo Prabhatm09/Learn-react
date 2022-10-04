@@ -67,13 +67,15 @@ export class InstUI extends Component {
     }
     render(){
         return (
-            <div >
+            <div className="Outer" >
             {this.state.UserData.map((data)  =>
              <> 
         <><img  className="Dp" src={data.dp} alt="img"></img><h1 className="Username" key={data.id}>{data.user}</h1></>
             <img className="post" src={data.img} alt="img"></img> 
             <p className="para" >{data.msg}</p>
+            < div className="Icons">
             <i class="fa-regular fa-heart"></i><i class="fa-regular fa-comment"></i><i class="fa-regular fa-share"></i>
+            </ div>
             </>
              )}
 

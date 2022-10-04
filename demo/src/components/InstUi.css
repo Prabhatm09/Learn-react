@@ -8,6 +8,9 @@ div{
     /* border: 2px solid black; */
     /* display: flex; */
 }
+.Outer{
+    border: 2px solid black;
+}
 .Username{
     font-size: 50px;
     display: flex;
@@ -26,14 +29,26 @@ div{
 
 }
 img{
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: 190px;
 }
 .para{
     font-size: 23px;
     margin-bottom: 12px;
+    /* padding-left:  */
+    text-align: center;
 }
 .post{
+    padding-left: 25px;
     /* margin-top: 12px; */
     /* margin-bottom: 30px; */
+}
+.Icons{
+    font-size:20px;
+    /* margin-top: 1px; */
+    margin: 1px 1px 1px 25px;
+}
+i{
+    /* border-bottom: 1px solid black; */
+    padding: 10px;
 }
