@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// import { LoginForm  } from './components/LoginForm';
+// import { Form } from "./components/Form"
+import { ErrorBoundary  } from './components/ErrorBoundry';
+// import { Parent } from './components/Parent';
+// import { InstaMain } from "./components/InstaMain"
 // import { InstUI } from './components/InstUI';
 // import { Aapp } from './Aapp';
-// import { Parent } from './Parent';
+// import { Parent } from './components/Parent';
 // import { IncDes } from './components/IncDes';
 // import { Greeting } from './components/Greeting';
 // import { Names } from './components/Names';
 import reportWebVitals from './reportWebVitals';
-import { Lifecycle } from './components/Lifecycle';
+// import { Lifecycle } from './components/Lifecycle';
 // import { InstUI } from './components/InstUI';
 // import { App } from './App';
 
@@ -25,8 +30,12 @@ root.render(
     {/* <Greeting /> */}
     {/* <Names /> */}
     {/* <InstUI /> */}
-    <Lifecycle />
-
+    {/* <Lifecycle /> */}
+    {/* <Parent name={"Prabhat"} /> */}
+    {/* < InstaMain /> */}
+{/* <LoginForm /> */}
+{/* <Form /> */}
+<ErrorBoundary />
   </React.StrictMode>
 );
 
