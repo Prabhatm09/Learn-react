@@ -1,11 +1,21 @@
 // import { CountClass } from "./components/Counter";
-import { CountHook } from "./components/CountHook";
+// import { Counter } from "./components/Counter";
+// import { StateWithObj } from "./components/StateWithObj";
+// import { CountHook } from "./components/CountHook";
+// import { StateWithArray }  from "./components/StateWithArray" 
+import  { Titlechangeclass } from "./components/Titlechangeclass"
+import { TitleChangeHook } from "./components/TitleChangeHook"
 
 export function  App (){
   return (
     <>
     {/* <CountClass /> */}
-    <CountHook />
+    {/* <CountHook /> */}
+    {/* <Counter /> */}
+    {/* <StateWithObj /> */}
+    {/* <StateWithArray /> */}
+    <Titlechangeclass />
+    <TitleChangeHook />
     </>
   )
 }
