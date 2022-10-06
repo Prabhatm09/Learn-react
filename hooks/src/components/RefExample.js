@@ -32,6 +32,7 @@ return (
         onChange={(e)=> setName(e.target.value)}/>
 <p>this is  {name}</p>
 <button onClick={()=> (inputRef.current.value = "aman")}>click</button>
+<button onClick={()=> (inputRef.current.value = "raman")}>click</button>
 {/* <p>rendered {countObj.current} times</p> */}
     </div>
 
