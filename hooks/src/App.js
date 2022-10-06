@@ -3,8 +3,11 @@
 // import { StateWithObj } from "./components/StateWithObj";
 // import { CountHook } from "./components/CountHook";
 // import { StateWithArray }  from "./components/StateWithArray" 
-import  { Titlechangeclass } from "./components/Titlechangeclass"
-import { TitleChangeHook } from "./components/TitleChangeHook"
+// import  { Titlechangeclass } from "./components/Titlechangeclass"
+// import { TitleChangeHook } from "./components/TitleChangeHook"
+import { RefExample } from "./components/RefExample"
+
+
 
 export function  App (){
   return (
@@ -14,8 +17,9 @@ export function  App (){
     {/* <Counter /> */}
     {/* <StateWithObj /> */}
     {/* <StateWithArray /> */}
-    <Titlechangeclass />
-    <TitleChangeHook />
+    {/* <Titlechangeclass /> */}
+    {/* <TitleChangeHook /> */}
+    <RefExample />
     </>
   )
 }
