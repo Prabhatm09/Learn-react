@@ -2,53 +2,54 @@
     margin: 0;
     padding: 0;
 }
-div{
-    width: 350px;
-    margin-left: 220px;
-    /* border: 2px solid black; */
-    /* display: flex; */
-}
 .Outer{
-    border: 2px solid black;
+    border: 10px solid black;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 40%
 }
-.Username{
-    font-size: 50px;
-    display: flex;
-    flex-direction:row;
-    position: relative;
-    left: 80px;
-    top:-60px;
-
-}
-.Dp{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.header-part{
     display: flex;
     flex-direction: row;
-
+    /* justify-content: space-between; */
 }
-img{
-    width: 300px;
-    height: 190px;
+
+.Dp{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.Username{
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 16px;
+    padding-left: 12px;
+}
+ .fa-ellipsis-vertical{
+    font-size: 30px;
+    padding-left: 220px;  
+     padding-top: 10px; 
+}
+.post {
+    width:fit-content;
+    margin: 5px 0;
+}
+.img{
+    width:400px;
+    height: 300px;
 }
 .para{
-    font-size: 23px;
-    margin-bottom: 12px;
-    /* padding-left:  */
-    text-align: center;
-}
-.post{
-    padding-left: 25px;
-    /* margin-top: 12px; */
-    /* margin-bottom: 30px; */
+    font-size: 25px;
+    margin-left: 10px;
 }
 .Icons{
-    font-size:20px;
-    /* margin-top: 1px; */
-    margin: 1px 1px 1px 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
 }
-i{
-    /* border-bottom: 1px solid black; */
-    padding: 10px;
+.Icons  i{
+    padding: 5px;
 }
+

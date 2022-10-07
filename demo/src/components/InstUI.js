@@ -5,6 +5,7 @@ export class InstUI extends Component {
     constructor(props){
         super(props);
         this.state = {
+            // comment : "",
             UserData : [
                 {
                     user: "Victoria",
@@ -65,22 +66,49 @@ export class InstUI extends Component {
             ]
         }
     }
+
+    //  handleComment = () => {
+    //     this.setState({
+    //         comment : "hey brother"
+    //     })
+    // }
+
     render(){
         return (
+            <>
             <div className="Outer" >
             {this.state.UserData.map((data)  =>
-             <> 
-        <><img  className="Dp" src={data.dp} alt="img"></img><h1 className="Username" key={data.id}>{data.user}</h1></>
-            <img className="post" src={data.img} alt="img"></img> 
-            <p className="para" >{data.msg}</p>
+            <>
+            <div className="header-part">
+                {/* <div className="dp-user"> */}
+            <img  className="Dp" src={data.dp} alt="img" />
+            <h1 className="Username" key={data.id}>{data.user}</h1>
+            {/* </div> */}
+            {/* <div> */}
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                {/* </div> */}
+            </div>
+            <div  className="post" >
+            <img  className="img" src={data.img} alt="img"/> 
+            </div>
+            <div className="para">
+            <p>{data.msg}</p>
+            </div>
             < div className="Icons">
-            <i class="fa-regular fa-heart"></i><i class="fa-regular fa-comment"></i><i class="fa-regular fa-share"></i>
+                <div className="left-icon">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-comment"></i>
+            <i class="fa-solid fa-share-from-square"></i>
+            </div>
+            <div>
+            <i class="fa-regular fa-bookmark"></i>
+            </div>
             </ div>
-            </>
+        </>
              )}
 
             </div>
-        
+        </>
         )
     }
 }

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import { LoginForm  } from './components/LoginForm';
 // import { Form } from "./components/Form"
-import { ErrorBoundary  } from './components/ErrorBoundry';
+// import { ErrorBoundary  } from './components/ErrorBoundry';
 // import { Parent } from './components/Parent';
 // import { InstaMain } from "./components/InstaMain"
 // import { InstUI } from './components/InstUI';
@@ -14,7 +14,7 @@ import { ErrorBoundary  } from './components/ErrorBoundry';
 // import { Names } from './components/Names';
 import reportWebVitals from './reportWebVitals';
 // import { Lifecycle } from './components/Lifecycle';
-// import { InstUI } from './components/InstUI';
+import { InstUI } from './components/InstUI';
 // import { App } from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,13 +29,13 @@ root.render(
     {/* < IncDes /> */}
     {/* <Greeting /> */}
     {/* <Names /> */}
-    {/* <InstUI /> */}
+    <InstUI />
     {/* <Lifecycle /> */}
     {/* <Parent name={"Prabhat"} /> */}
     {/* < InstaMain /> */}
 {/* <LoginForm /> */}
 {/* <Form /> */}
-<ErrorBoundary />
+{/* <ErrorBoundary /> */}
   </React.StrictMode>
 );
 
