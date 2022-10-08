@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { LoginHeader  } from './LoginHeader';
 import "./LoginForm.css"
+import LogOut from './LogOut';
 
 
 export const LoginForm = () => {
@@ -94,6 +95,7 @@ export const LoginForm = () => {
             {
                 loggedInUser ? 
                 <>
+                    <LogOut />
                 <div className='logout'>
                     <h1>Hello, {loggedInUser['userName']}</h1>
                     <button className='logiutbtn' onClick={handleLogout}>Log Out</button>
