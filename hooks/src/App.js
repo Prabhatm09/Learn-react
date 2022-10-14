@@ -10,6 +10,8 @@
 import { TodoList } from "./components/TodoList"
 // import { DataFetch } from "./components/DataFetch";
 
+// import { Weather } from "./components/Weather";
+
 // import { ReducerCounter } from "./components/ReducerCounter";
 
 
@@ -31,6 +33,7 @@ export function  App (){
     <TodoList />
     {/* <DataFetch /> */}
     {/* <ReducerCounter /> */}
+    {/* <Weather /> */}
     </>
   )
 }
