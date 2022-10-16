@@ -7,8 +7,10 @@
 // import { TitleChangeHook } from "./components/TitleChangeHook"
 // import { RefExample } from "./components/RefExample"
 // import { LoginForm } from "./components/LoginFrom";
-import { TodoList } from "./components/TodoList"
-// import { DataFetch } from "./components/DataFetch";
+// import { TodoList } from "./components/TodoList"
+import { DataFetch } from "./components/DataFetch";
+// import { Check } from "./components/Check"
+// import React , { useState} from "react";
 
 // import { Weather } from "./components/Weather";
 
@@ -19,6 +21,9 @@ import { TodoList } from "./components/TodoList"
 
 
 export function  App (){
+
+  // const  [valid , setValid] = useState(0);
+
   return (
     <>
     {/* <CountClass /> */}
@@ -30,10 +35,13 @@ export function  App (){
     {/* <TitleChangeHook /> */}
     {/* <RefExample /> */}
     {/* <LoginForm /> */}
-    <TodoList />
-    {/* <DataFetch /> */}
+    {/* <TodoList /> */}
+    <DataFetch />
     {/* <ReducerCounter /> */}
     {/* <Weather /> */}
+    {/* {valid < 10 && <Check />}
+    <button onChange={()=> setValid((prev)=>prev+1)}>click ={valid}</button> */}
+    
     </>
   )
 }
