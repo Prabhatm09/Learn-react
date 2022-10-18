@@ -13,16 +13,21 @@
 // import React , { useState} from "react";
 
 // import { Weather } from "./components/Weather";
-
-import { ReducerCounter } from "./components/ReducerCounter";
-
-
-
+import React , {useState} from "react"
+// import { ReducerCounter } from "./components/ReducerCounter";
+// import MemoCounter from "./components/MemoCounter"
+import CompoA from "./components/useContext/CompoA"
+export const NameContext = React.createContext();
+export const AgeContext = React.createContext();
 
 
 export function  App (){
 
   // const  [valid , setValid] = useState(0);
+
+
+  const [name , setName ] = useState("prabhat")
+  const [age , setAge] = useState(12);
 
   return (
     <>
@@ -37,8 +42,15 @@ export function  App (){
     {/* <LoginForm /> */}
     {/* <TodoList /> */}
     {/* <DataFetch /> */}
-    <ReducerCounter />
+    {/* <ReducerCounter /> */}
     {/* <Weather /> */}
+    {/* <MemoCounter /> */}
+    <NameContext.Provider value={name}>
+      <AgeContext.Provider value={age}>
+      <CompoA  />
+      </AgeContext.Provider>
+    {/* <CompoA name={name} /> */}
+    </NameContext.Provider>
     {/* {valid < 10 && <Check />}
     <button onChange={()=> setValid((prev)=>prev+1)}>click ={valid}</button> */}
     

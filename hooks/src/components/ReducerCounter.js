@@ -89,7 +89,7 @@ export function ReducerCounter (){
          <button onClick={()=> secondDispatch({type:"increament" , value:10} )}>increament by 10</button>
         <button onClick={()=> secondDispatch({type:"decrement" , value:13})}>decrement by 13</button>
         <button onClick={()=> secondDispatch("reset")}>reset</button>
-        <button onClick={()=> dispatch({type :"Update" , value:"prabhat"})}>change name</button>
+        {/* <button onClick={()=> dispatch({type :"Update" , value:"prabhat"})}>change name</button> */}
         </>
     )
 };
