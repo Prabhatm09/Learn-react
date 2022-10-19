@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(230, 239, 248);
+}
+
+.todo_container {
+    margin: 4%;
+    text-align: center;
+}
+
+.taskInput {
+    margin-top: 1%;
+    margin-left: 30%;
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.writeInput {
+    width: 30vw;
+    height: 5vh;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+        background: rgb(230, 239, 248);
+}
+
+.addbtn {
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-left: 2px solid black;
+    background: none;
+    font-size: 30px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+
+h1{
+    margin: 10px 42%;
+    width: fit-content;
+    padding: 1%;
+    background: black;
+    color: white;
+}
+.container {
+    display: flex;
+    height: 10vh;
+    background: rgb(240, 175, 175);
+    padding: 10px 40%;
+    justify-content: center; 
+}
+
+.Input{
+    text-align: center;
+    border-radius: 10px;
+    height: 5vh;
+    padding-left: 12px;
+    border-bottom: 2px solid black;
+    font-size: 23px;
+    /* margin: 120px; */
+    
+    /* margin-right: 10px; */
+}
+.btn{
+    font-size: 25px;
+    margin: 0 5px;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px;
+}
+.delBtn i{
+    color:rgb(46, 45, 45);
+}
+
+.delBtn:active{
+   color: red;
+}

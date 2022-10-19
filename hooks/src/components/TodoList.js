@@ -1,5 +1,5 @@
 import React , { useState } from "react";
-
+import "./Todo.css"
 export function TodoList () {
   
     const [inputTask , setInputTask] = useState({});
@@ -51,7 +51,9 @@ let newTasks = [];
 
     return (
         <>
-          <input type="text" placeholder="add items"   
+        <div className="todo_container">
+          <div className="taskInput">
+          <input type="text" placeholder="Add Items..."  className="writeInput" 
           value={inputTask.text}
           onChange={(e)=> setInputTask({
             "id" : Math.floor(Math.random()*1000),
@@ -59,32 +61,34 @@ let newTasks = [];
             "isEditable" :  false
 
           })} /> 
-          <button onClick={addItem} >Add</button>
+          <button onClick={addItem}  className="addbtn" >Add</button>
+          </div>
           <h1>TO DO LIST</h1>
           {tasks.map((task)=> (
             <div className="container" key={task.id}>
                 {
             task.isEditable ? 
-            <input type="text" className="input" defaultValue={task['text']} onChange={(event) => setUpdateText(event.target.value)} />
+            <input type="text" className="Input" defaultValue={task['text']} onChange={(event) => setUpdateText(event.target.value)} />
             :
             <p>{task['text']}</p>
           }
           
-                <button onClick={()=> {
+                <button className="delBtn btn" onClick={()=> {
                     let listarray =   tasks.filter((value) => value !== task);
                   setTasks([...listarray])
-                }} >Delete</button>
-                <button onClick={(event) => {
+                }} ><i class="fa-sharp fa-solid fa-trash"></i></button>
+                <button className="editBtn btn"  onClick={(event) => {
                   if(task.isEditable){
                     updatetask(task);
-                event.target.innerText = "save"    
+                event.target.style.color = "yellow"    
                   }else if(!task.isEditable){
                     makeEditable(task);
-                    event.target.innerText = "edit"
+                    event.target.style.color = "green"
                   }
-                 }} >Edit</button>
+                 }} ><i class="fa-sharp fa-solid fa-pen"></i></button>
             </div>
           ))}
+          </div>
         </>
     )
 }
