@@ -19,15 +19,17 @@
 // import CounterOne from "./components/CustomHooks/CounterOne"
 // import CounterTwo from "./components/CustomHooks/CounterTwo"
 // import CompoA from "./components/useContext/CompoA"
-import React from "react"
-import Home from "./components/BrowserRouter/Home"
-import About from "./components/BrowserRouter/About"
-import Contact from "./components/BrowserRouter/Contact"
-import Content from "./components/BrowserRouter/Content"
-import Header from "./components/BrowserRouter/Header"
-import Sidebar from "./components/BrowserRouter/Sidebar"
-import Errorpage from "./components/BrowserRouter/Errorpage"
-import { Route , Routes } from  "react-router-dom"
+// import React from "react"
+// import Home from "./components/BrowserRouter/Home"
+// import About from "./components/BrowserRouter/About"
+// import Contact from "./components/BrowserRouter/Contact"
+// import Content from "./components/BrowserRouter/Content"
+// import Header from "./components/BrowserRouter/Header"
+// import Sidebar from "./components/BrowserRouter/Sidebar"
+// import Errorpage from "./components/BrowserRouter/Errorpage"
+// import { Route , Routes } from  "react-router-dom"
+
+import { Covid } from "./components/Covid"
 
 // export const NameContext = React.createContext();
 // export const AgeContext = React.createContext();
@@ -65,7 +67,7 @@ export function App() {
       {/* <Home />
       <About />
       <Contact /> */}
-      <Header />
+      {/* <Header />
       <Routes>
         <Route path="/contact" element={<Sidebar text="contact"/>}/>
          <Route path="/about" element={<Sidebar text="about"/>}/>
@@ -76,7 +78,8 @@ export function App() {
   <Route path="/about/:id" element={<Content />}/>
   <Route path="/contact" element={<Contact />}/>
   <Route path="*" element={<Errorpage />}/>
-</Routes>
+</Routes> */}
+<Covid />
       {/* <NameContext.Provider value={name}> */}
       {/* <AgeContext.Provider value={age}> */}
       {/* <CompoA /> */}
