@@ -1,11 +1,11 @@
-import { Counter } from "./counter/Counter"
-import { Greet } from "./greet/Greet"
+import { Form } from "./form/Form"
+// import { Greet } from "./greet/Greet"
 
 function App() {
   return (
     <div >
-      <Counter />
-      <Greet  name="prabhat"  />
+      <Form />
+      {/* <Greet  name="prabhat"  /> */}
     </div>
   );
 }
