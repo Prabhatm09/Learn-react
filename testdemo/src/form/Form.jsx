@@ -4,6 +4,10 @@ import React from "react";
 
 export function Form(){
     return (
+      <>
+      <h1>Air Campus</h1>
+      <h3>react learn here</h3>
+      <p>good night</p>
       <form>
         <div>
           <lable htmlfor="name">name</lable>
@@ -28,5 +32,6 @@ export function Form(){
           </label>
         </div>
       </form>
+      </>
     );
 }
