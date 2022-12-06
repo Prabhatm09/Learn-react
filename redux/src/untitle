@@ -1,0 +1,6 @@
+-Disadvantage of useContext
+
+--setUp of state and provider is complete.
+  --we will have to write  multiple provider  
+   -- even if we write everything in one context , the state itself became  complex.
+   --useContext is bad for frequency update.
