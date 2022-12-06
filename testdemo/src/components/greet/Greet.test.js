@@ -45,7 +45,7 @@ import { render, screen } from "@testing-library/react";
 describe("Greet", () => { //describe to use for group testing
     test("Render properly", () => {
         render(<Greet />);
-        const text = screen.getByText("hello");
+        const text = screen.getByText("Guest");
         expect(text).toBeInTheDocument();
     })
 
