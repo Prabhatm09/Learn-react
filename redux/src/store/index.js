@@ -14,9 +14,12 @@ const DEFAULT_STATE = {
     ]
 }
 
+// action = { "type": "increment" , "payload":{ "step" :5}}
 const counterReducer = (state = DEFAULT_STATE, action) => {
     if (action.type === "increment") {
-        return { ...state, counter: state.counter + 1 }
+        return { ...state, counter: state.counter + action.payload.step }
+    } else if (action.type === "decrement") {
+        return { ...state, counter: state.counter - 1 }
     }
     return state
 }

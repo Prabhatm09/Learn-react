@@ -4,3 +4,25 @@
   --we will have to write  multiple provider  
    -- even if we write everything in one context , the state itself became  complex.
    --useContext is bad for frequency update.
+
+
+
+   context 
+   -provider
+   -global
+
+
+   Redux
+   -provider
+   -global
+    --managed by reducer function
+    --we save it in store
+   Actions
+     --tells us what to managed
+   reducer
+     --how to manage (create/update/delete)   
+     -it should always return the state
+
+    library
+    --react-Redux (lib to use redux in react)
+    -redux(to manage the store)
