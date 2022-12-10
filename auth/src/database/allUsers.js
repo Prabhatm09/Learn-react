@@ -25,6 +25,15 @@ const allUsers = [
     },
 ]
 
+
+const mobiles = [
+    {
+        "company": "Apple",
+        "model": "iphone 11"
+    }
+]
+
 export default {
-    "allUsers": allUsers
+    "allUsers": allUsers,
+    "mobiles": mobiles
 }

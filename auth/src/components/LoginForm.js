@@ -1,49 +1,62 @@
-import React, { useState } from 'react'
-import userData from '../database/allUsers';
-import { useDispatch } from 'react-redux';
+import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import usersData from '../database/allUsers';
+// import AUTH_ACTION_TYPES from '../store/actions/action';
+import { authActions } from '../features/counter/authSlice';
 
-export function LoginForm() {
-
-    const [loggedIn, setLoggedIn] = useState({});
-    const dispatch = useDispatch();
+export const LoginForm = () => {
+    const mobile = useSelector((state) => {
+        return state.mobile
+    })
+    const [loginData, setLoginData] = useState({});
+    const dispatching = useDispatch();
 
     const handleLogin = (e) => {
         e.preventDefault();
-        let result = userData.allUsers.filter((user) => {
-            return user.email === loggedIn.email && user.password === loggedIn.password
+
+        // - if his/her email id & password is correct, then we will set redux's loggedInUser state
+        // - else do nothing
+
+        let result = usersData.allUsers.filter((user) => {
+            return user.email === loginData.email && user.password === loginData.password
         })
-        console.log("result", result)
-        // result = [{ "email": "raghvendra@gmail.com", "password": "pass" }]
-        // result[0] = [{ "email": "raghvendra@gmail.com", "password": "pass" }]
+
+        // result = [{"email": "kiran@gmail.com", "password": "pass"}]
+        // result[0] = {"email": "kiran@gmail.com", "password": "pass"}
 
         if (result[0]) {
-            //email id and password is correct 
-            let information_or_action = {
-                "type": "SET_LOGIN_DATA",
-                "payload": {
-                    ...result[0]
-                }
-            }
-            dispatch(information_or_action)
+            // email id and password is correct
+            // let information_or_action = {
+            //     "type": "LOGIN",
+            //     "payload": {
+            //         ...result[0]
+            //     }
+            // }
+
+            // dispatching(information_or_action)
+            dispatching(authActions.login({ ...result[0] }))
         } else {
-            //incorrect
-            alert("failed to login")
+            // incorrect
+            alert("Failed to Login")
         }
+
     }
+
     return (
         <>
-            <h1 style={{ "textAlign": "center" }} >LoginForm</h1>
+            <h1 style={{ "textAlign": "center" }} >Login Page</h1>
+
             <form onSubmit={handleLogin}>
                 <label htmlFor="email">Email</label>
-                <input type="email" name="email" id="email" onChange={(event) => setLoggedIn({ ...loggedIn, "email": event.target.value })} />
+                <input type="email" name="email" id="email" onChange={(event) => setLoginData({ ...loginData, "email": event.target.value })} />
                 <br />
-                <label htmlFor="password">password</label>
-                <input type="password" name='password' id="password" onChange={(event) => setLoggedIn({ ...loggedIn, "password": event.target.value })} />
+                <label htmlFor="password">Password</label>
+                <input type="password" name="password" id="password" onChange={(event) => setLoginData({ ...loginData, "password": event.target.value })} />
                 <br />
-                <button>Login</button>
+                <button >Login</button>
             </form>
+
         </>
     )
 }
-
 
