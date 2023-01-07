@@ -28,6 +28,7 @@
 // import Sidebar from "./components/BrowserRouter/Sidebar"
 // import Errorpage from "./components/BrowserRouter/Errorpage"
 // import { Route , Routes } from  "react-router-dom"
+import  Child from "./components/OptimizationTechnique/Childparent"
 
 import { Covid } from "./components/Covid"
 
@@ -79,7 +80,7 @@ export function App() {
   <Route path="/contact" element={<Contact />}/>
   <Route path="*" element={<Errorpage />}/>
 </Routes> */}
-<Covid />
+{/* <Covid /> */}
       {/* <NameContext.Provider value={name}> */}
       {/* <AgeContext.Provider value={age}> */}
       {/* <CompoA /> */}
@@ -88,6 +89,7 @@ export function App() {
       {/* </NameContext.Provider> */}
       {/* {valid < 10 && <Check />}
     <button onChange={()=> setValid((prev)=>prev+1)}>click ={valid}</button> */}
+    <Child/>
 </>
     
   )
